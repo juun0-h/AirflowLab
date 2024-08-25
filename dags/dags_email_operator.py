@@ -14,5 +14,6 @@ with DAG(
         task_id="send_email_task",
         to="expershyp33@naver.com",
         subject="Airflow email test",
-        html_content="Airflow task completed!"
+        html_content="Airflow task completed!",
+        conn_id='expershyp77@gmail.com'
     )
