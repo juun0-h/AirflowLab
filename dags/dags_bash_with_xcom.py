@@ -1,6 +1,6 @@
 from airflow import DAG
 import pendulum
-from airflow.operators import BashOperator
+from airflow.operators.bash import BashOperator
 
 with DAG(
     dag_id = "dags_bash_with_xcom",
